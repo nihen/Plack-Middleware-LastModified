@@ -2,6 +2,7 @@ use inc::Module::Install;
 name 'Plack-Middleware-LastModified';
 all_from 'lib/Plack/Middleware/LastModified.pm';
 readme_from 'lib/Plack/Middleware/LastModified.pm';
+requires 'parent';
 requires 'Plack';
 requires 'HTTP::Date';
 requires 'File::stat';
