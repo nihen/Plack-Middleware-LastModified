@@ -1,0 +1,24 @@
+NAME
+    Plack::Middleware::LastModified - Adds Last-Modified header
+    automatically
+
+SYNOPSIS
+      builder {
+          enable "LastModified";
+          $app;
+      };
+
+DESCRIPTION
+    Plack::Middleware::LastModified is a middleware that automatically adds
+    "Last-Modified" header.
+
+AUTHOR
+    Masahiro Chiba
+
+LICENSE
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
+SEE ALSO
+    Plack::Middleware Plack::Builder
+
